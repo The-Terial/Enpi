@@ -1,0 +1,17 @@
+{
+  "input_file":"data\/raw\/metrel\/Respaldo_Experimentacion_Enpi.xlsx",
+  "rows_in_Todos":10596,
+  "scenarios":[
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009"
+  ],
+  "note":"This script reproduces metrics from the available final experimental backup workbook. Pairwise non-numeric or missing values are excluded per variable before calculating metrics."
+}
