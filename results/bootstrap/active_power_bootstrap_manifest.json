@@ -1,0 +1,41 @@
+{
+  "method": "segment-preserving circular moving-block bootstrap",
+  "input_file": "data/raw/Metrel_y_Comparacion_V2.xlsx",
+  "input_sha256": "1e6051c9b1ca8f5414e75d9a8dc05bfbe765d059071148221152bad7f386b938",
+  "input_sheet": "Calculos",
+  "loaded_scenarios": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "009"
+  ],
+  "n_observations": 9119,
+  "n_segments": 21,
+  "replicates_per_block_length": 2000,
+  "block_lengths": [
+    15,
+    30,
+    60,
+    120
+  ],
+  "primary_block_length": 60,
+  "seed_rule": "seed_base + block_length",
+  "seed_base": 20261013,
+  "confidence_interval": "2.5th and 97.5th percentiles",
+  "observed_metrics": {
+    "mae_W": 11.40770577914245,
+    "rmse_W": 23.184323104931558,
+    "bias_W": -11.033755565303213,
+    "wmape_pct": 1.7730710096443945
+  },
+  "paper_consistency_check": true,
+  "software": {
+    "python": "3.10+",
+    "numpy": "2.3.3",
+    "pandas": "2.3.2"
+  }
+}
