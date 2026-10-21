@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these data or scripts, please cite the associated manuscript."
+title: "Experimental Characterization of a Low-Cost IoT Electrical Monitoring System for Traceable Machine-Level Energy Performance Indicators"
+type: software
+authors:
+  - family-names: Viveros
+    given-names: Andres
+  - family-names: Derpich
+    given-names: Ivan
+  - family-names: Sepulveda
+    given-names: Juan Miguel
+  - family-names: Meza
+    given-names: Armando
+repository-code: "https://github.com/The-Terial/Enpi"
+date-released: 2026-10-21
+version: "2026.10.21"
+
